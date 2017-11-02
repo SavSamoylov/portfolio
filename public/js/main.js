@@ -13,7 +13,7 @@
 
       btn.innerHTML =
       `
-      <div id="closeOverlay">Close <span class="bold-text">x</span></div>
+      <div id="closeOverlay">Close</div>
       <div class="container">
         <div class="row">
           <div class="col-md-6 offset-md-3">
