@@ -276,3 +276,37 @@ a:hover{
     width:40%;
   }
 }
+
+@media screen and (max-width:470px){
+  .hero h1{
+    font-size: 2rem;
+  }
+
+  .hero h4, .hero h3{
+    font-size:1.4rem;
+  }
+}
+
+@media screen and (max-width:415px){
+  .hero h1{
+    font-size: 1.5rem;
+  }
+
+  .hero h4, .hero h3{
+    font-size:1rem;
+  }
+}
+
+@media screen and (max-width:321px){
+  .hero h1{
+    font-size: 1.5rem;
+  }
+
+  .hero h4{
+    font-size:.8rem;
+  }
+
+  .hero h3{
+    font-size:1rem;
+  }
+}
