@@ -207,7 +207,19 @@ a:hover{
 }
 
 .overlay .container{
-  margin-top:75px;
+  margin-top:65px;
+}
+
+#closeOverlay{
+  position: absolute;
+  right:0;
+  padding:40px;;
+  cursor: pointer;
+}
+
+#closeOverlay:hover{
+  opacity: .5;
+  transition: .5s;
 }
 
 .overlay #feedback{

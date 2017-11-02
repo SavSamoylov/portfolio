@@ -13,7 +13,7 @@
 
       btn.innerHTML =
       `
-      <div id="closeOverlay">close</div>
+      <div id="closeOverlay">Close <span class="bold-text">x</span></div>
       <div class="container">
         <div class="row">
           <div class="col-md-6 offset-md-3">
@@ -40,7 +40,7 @@
                     <div class="form-check">
                       <label class="form-check-label">
                         <input type="checkbox" class="form-check-input" id="checkInput">
-                          Check me if ${randNumber} is an even Number. Otherwise don't.
+                          Check me if ${randNumber} is an even number. Otherwise don't.
                         </label>
                       </div>
 
@@ -103,7 +103,7 @@
                     }
                     if (data === 'success'){
                       successMsg("Thank you! :)")
-                      
+
                       setInterval(function(){
                         btn.remove();
                         document.body.style.overflowY = "scroll";
